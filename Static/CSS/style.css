@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url('https://images.pexels.com/photos/1028707/pexels-photo-1028707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.card{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 7px 7px 10px 2px #DC3545;
+}
+.card .arslan a{
+    color: white;
+    text-decoration: none;
+}
+.card .card-header{
+    background-color: #DC3545;
+    color: white;
+    font-size: 20px;
+}
+.from-inline{
+    width: 75%;
+    margin: auto;
+}
+.arslan{
+    width: 70%;
+    margin: auto;
+}
+.btn{
+    width: 50%;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #189434;
+}
+header{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #DC3545;
+    color: white;
+    text-align: center;
+}
+.footer p{
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.footer p span:hover{
+    color: #ff8793;
+    cursor: pointer;
+}
